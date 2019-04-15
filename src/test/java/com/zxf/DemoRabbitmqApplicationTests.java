@@ -24,9 +24,9 @@ public class DemoRabbitmqApplicationTests {
 
 		@Test
 		public void test1() throws InterruptedException {
-			this.usersender.send("UserSender..... "); 
-//			this.productsender.send("ProductSender...."); 
-//			this.ordersender.send("OrderSender......"); 
+			//this.usersender.send("UserSender..... "); 
+			//this.productsender.send("ProductSender...."); 
+			this.ordersender.send("OrderSender......"); 
 		}
 
 }
